@@ -68,3 +68,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Project structure 
+
+smartkitchen-frontend/
+├── node_modules/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── api/
+│   │   └── axios.js
+│   ├── components/
+│   │   ├── Login.js
+│   │   └── Dashboard.js
+│   ├── App.js
+│   ├── index.css
+│   ├── index.js
+│   └── ...
+├── package.json
+└── ...
+
