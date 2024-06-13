@@ -15,7 +15,7 @@ const useLogin = () => {
             formData.append('username', username);
             formData.append('password', password);
 
-            const response = await axios.post('http://localhost:8000/token', formData, {
+            const response = await axios.post('/token', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },

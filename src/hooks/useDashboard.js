@@ -14,7 +14,7 @@ const useDashboard = () => {
         const fetchInventory = async () => {
             try {
                 const token = localStorage.getItem('token');
-                const response = await axios.get('http://localhost:8000/items', {
+                const response = await axios.get('/items', {
                     headers: {
                         Authorization: `Bearer ${token}`,
                     },
